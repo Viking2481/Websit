@@ -190,6 +190,7 @@ footer
     font-size: 30px;
     border-bottom: 6px;
     border-color: black;
+    font-weight: bold;
 }
 
 .documents-name:hover

@@ -106,7 +106,7 @@ nav
 {
     background-color: rgba(34, 34, 34, 0.8);
     padding: 10px;
-    color: white;
+    color: white !important;
     font-weight: none;
     text-transform:uppercase;
 }
@@ -117,6 +117,7 @@ header
     right: 0px;
     left: 0px;
     position: fixed;
+    color: white !important;
 }
 
 a

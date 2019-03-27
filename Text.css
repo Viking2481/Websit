@@ -6,50 +6,8 @@
 
 @font-face
 {
-    src: url(fonts/Halo3.ttf);
-    font-family: Halo;
-}
-
-@font-face
-{
-    src: url(fonts/BOOTLE__.TTF);
-    font-family: Bootle;
-}
-
-@font-face
-{
     src: url(fonts/Jaapokki-Regular.OTF);
     font-family: Jaapoki;
-}
-
-@font-face
-{
-    src: url(fonts/Jaapokkienchance-Regular.otf);
-    font-family: Jaapoki Enhanced;
-}
-
-@font-face
-{
-    src: url(fonts/Jaapokkisubtract-Regular.otf);
-    font-family: Jaapoki Subtract;
-}
-
-@font-face
-{
-    src: url(fonts/PoisonHope-Regular.ttf);
-    font-family: Poison Hope;
-}
-
-@font-face
-{
-    src: url(fonts/Apple.ttf);
-    font-family: Poison Apple;
-}
-
-@font-face
-{
-    src: url(fonts/the_Poison.ttf);
-    font-family: The Poison;
 }
 
 @font-face

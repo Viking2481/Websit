@@ -40,5 +40,3 @@ bot.on("message", function(message)
             break;
     }
 });
-
-bot.login('NDczNTQzMzY5MTkzMTYwNzM1.DkEBMA.8XYBfdByLk3ESRvqFgq75u6KlnI');

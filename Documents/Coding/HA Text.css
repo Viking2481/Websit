@@ -1,0 +1,309 @@
+@font-face
+{
+    src: url(fonts/HeroicCondensed-Thin.otf);
+    font-family: Heroic;
+}
+
+@font-face
+{
+    src: url(fonts/Halo3.ttf);
+    font-family: Halo;
+}
+
+@font-face
+{
+    src: url(fonts/BOOTLE__.TTF);
+    font-family: Bootle;
+}
+
+@font-face
+{
+    src: url(fonts/Jaapokki-Regular.OTF);
+    font-family: Jaapoki;
+}
+
+@font-face
+{
+    src: url(fonts/Jaapokkienchance-Regular.otf);
+    font-family: Jaapoki Enhanced;
+}
+
+@font-face
+{
+    src: url(fonts/Jaapokkisubtract-Regular.otf);
+    font-family: Jaapoki Subtract;
+}
+
+@font-face
+{
+    src: url(fonts/PoisonHope-Regular.ttf);
+    font-family: Poison Hope;
+}
+
+@font-face
+{
+    src: url(fonts/Apple.ttf);
+    font-family: Poison Apple;
+}
+
+@font-face
+{
+    src: url(fonts/the_Poison.ttf);
+    font-family: The Poison;
+}
+
+@font-face
+{
+    src: url(fonts/Pill_Gothic_300mg_Regular.ttf);
+    font-family: Pill Gothic;
+}
+
+@font-face
+{
+    src: url(fonts/celticmd.ttf);
+    font-family: Celtic;
+}
+
+@font-face
+{
+    src: url(fonts/Halo\ 5.ttf);
+    font-family: Guardians;
+}
+
+@font-face
+{
+    src: url(fonts/Halo\ Reach.ttf);
+    font-family: Reach;
+}
+
+
+html, body, div, span, applet, object, iframe, h1, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video 
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body 
+{
+    font-size: 14px;
+    line-height: 1.1;
+    margin: 0;
+    text-shadow: rgba(0, 0, 0, 0.6);
+}
+
+.button, .button:link, .button:visited, .button:hover, .button:active 
+{
+    font-family: Jaapoki Subtract;
+    letter-spacing: 1px !important;
+    font-size: 16px;
+    padding: 21px 16px 7px 16px;
+    vertical-align: bottom;
+    transition: border-bottom 0.2s, color 0.2s;
+    margin: 0px;
+    color: white;
+}
+
+.button_green, .button_green:link, .button_green:visited, .button_green:hover, .button_green:active 
+{
+    padding: 5px 9px;
+}
+
+h1 
+{
+    background-color: rgba(34, 34, 34, 0.6);
+    padding: 12px;
+    color: white;
+}
+
+nav 
+{
+    background-color: rgba(34, 34, 34, 0.8);
+    padding: 10px;
+    color: white;
+    font-weight: none;
+    text-transform:uppercase;
+}
+
+header
+{
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    position: fixed;
+}
+
+a
+{
+    font-size: 28px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.3s all ease;
+    letter-spacing: 2px;
+    color: white;
+}
+
+a.button
+{
+    padding: 12px;
+}
+
+h2 
+{
+    font-size: 45px;
+    color: black;
+    font-family: Calibri;
+    letter-spacing: 1px !important;
+}
+
+h3 
+{
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-family: Reach;
+    padding: 10px;
+}
+
+h4 
+{
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-family: Jaapoki;
+    padding: 10px;
+}
+
+h5 
+{
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-family: Jaapoki;
+    padding: 10px;
+}
+
+h6
+{
+    font-size: 20px;
+    color: black;
+    font-family: Pill Gothic;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-weight: normal;
+    padding: 5px;
+}
+
+h7
+{
+    font-size: 30px;
+    font-family: Guardians;
+}
+
+p 
+{
+    font-size: 18px;
+    color: black;
+    font-family: Pill Gothic;
+    padding: 10px;
+    word-wrap: break-word;
+    max-width: 30%;
+}
+
+li 
+{
+    font-size: 30px;
+}
+
+a:-webkit-any-link 
+{
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+a:visited 
+{
+    color: white;
+	padding: 8px 0px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+}
+
+a.button:hover 
+{
+    border-bottom: 5px solid #ffc81a;
+    background: rgba(0, 33, 87, 0.64);
+    opacity: 1.0;
+}
+
+a.title:hover 
+{
+    opacity: 0.4;
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+    transition: 0.35;
+}
+
+footer
+{
+    background-color: #1f1f1f;
+    vertical-align: baseline;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.welcome
+{
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+.phases
+{
+    background-color: #dfdfdf;
+    text-align: right;
+    color: black;
+}
+
+.phase1
+{
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+.phase2
+{
+    background-color: #bd9999;
+    text-align: right;
+    color: Black;
+}
+
+.phase3
+{
+    background-color: #dfe6f4;
+    text-align: left;
+    color: Black;
+}
+
+.phase4
+{
+    background-color: White;
+    text-align: right;
+    color: Black;
+}
+
+.phase5
+{
+    background-color: #b3e1f3;
+    text-align: left;
+    color: black;
+}

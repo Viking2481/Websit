@@ -1,0 +1,373 @@
+@font-face
+{
+    src: url(fonts/HeroicCondensed-Thin.otf);
+    font-family: Heroic;
+}
+
+@font-face
+{
+    src: url(fonts/Halo3.ttf);
+    font-family: Halo;
+}
+
+@font-face
+{
+    src: url(fonts/BOOTLE__.TTF);
+    font-family: Bootle;
+}
+
+@font-face
+{
+    src: url(fonts/Jaapokki-Regular.OTF);
+    font-family: Jaapoki;
+}
+
+@font-face
+{
+    src: url(fonts/Jaapokkienchance-Regular.otf);
+    font-family: Jaapoki Enhanced;
+}
+
+@font-face
+{
+    src: url(fonts/Jaapokkisubtract-Regular.otf);
+    font-family: Jaapoki Subtract;
+}
+
+@font-face
+{
+    src: url(fonts/PoisonHope-Regular.ttf);
+    font-family: Poison Hope;
+}
+
+@font-face
+{
+    src: url(fonts/Apple.ttf);
+    font-family: Poison Apple;
+}
+
+@font-face
+{
+    src: url(fonts/the_Poison.ttf);
+    font-family: The Poison;
+}
+
+@font-face
+{
+    src: url(fonts/Pill_Gothic_300mg_Regular.ttf);
+    font-family: Pill Gothic;
+}
+
+@font-face
+{
+    src: url(fonts/celticmd.ttf);
+    font-family: Celtic;
+}
+
+html, body, div, span, applet, object, iframe, h1, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video 
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body 
+{
+    font-size: 14px;
+    line-height: 1.1;
+    margin: 0;
+    text-shadow: rgba(0, 0, 0, 0.6);
+}
+
+.button, .button:link, .button:visited, .button:hover, .button:active 
+{
+    font-family: Heroic;
+    letter-spacing: 1px !important;
+    font-size: 21px;
+    padding: 21px 16px 11px 16px;
+    vertical-align: bottom;
+    transition: border-bottom 0.2s, color 0.2s;
+    margin: 0px;
+    font-weight:bold;
+}
+
+.button_green, .button_green:link, .button_green:visited, .button_green:hover, .button_green:active 
+{
+    padding: 5px 9px;
+}
+
+h1 
+{
+    background-color: rgba(34, 34, 34, 0.6);
+    padding: 12px;
+    color: white;
+}
+
+nav 
+{
+    background-color: rgba(34, 34, 34, 0.8);
+    padding: 10px;
+    color: white;
+    font-weight: none;
+    text-transform:uppercase;
+}
+
+header
+{
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    position: fixed;
+}
+
+a
+{
+    font-size: 28px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.3s all ease;
+    letter-spacing: 2px;
+}
+
+a.button
+{
+    padding: 12px;
+}
+
+h2 
+{
+    font-size: 45px;
+    color: black;
+    font-family: Calibri;
+    letter-spacing: 1px !important;
+}
+
+h3 
+{
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-family: Celtic;
+}
+
+h4 
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: Pill Gothic;
+}
+
+p 
+{
+    font-size: 18px;
+    font-weight:Bold;
+    color: black;
+    font-family: Helvetica;
+    padding: 20px 20px 20px 20px;
+}
+
+li 
+{
+    font-size: 30px;
+}
+
+a:-webkit-any-link 
+{
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+a:visited 
+{
+    color: white;
+	padding: 8px 0px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+}
+
+a.button:hover 
+{
+    border-bottom: 5px solid #ffc81a;
+    background: rgba(36, 51, 70, 0.64);
+    opacity: 1.0;
+}
+
+a.title:hover 
+{
+    opacity: 0.4;
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+    transition: 0.35;
+}
+
+footer
+{
+    background-color: #1f1f1f;
+    vertical-align: baseline;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.documents
+{
+    width: 25%;
+    height: 25%;
+    background: #fff;
+    opacity: 1;
+    display: block;
+    transition: all .25s;
+    padding: 0px;
+    font-family: Jaapoki;
+    color: #002157;
+    font-size: 30px;
+    border-bottom: 6px;
+    border-color: black;
+}
+
+.documents-name:hover
+{
+    opacity: 1.0;
+}
+
+.documents:hover
+{
+    opacity: 0.5;
+}
+
+.sm
+{
+    transition: all .35s;
+}
+
+.sm:hover
+{
+    opacity: 0.5;
+}
+
+.program-description
+{
+    width: 30%;
+    height: 30%;
+    background: #fff;
+    opacity: 1;
+    display: block;
+    padding: 5px;
+    font-family: Pill Gothic;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.document-description
+{
+    width: 30%;
+    height: 30%;
+    background: #fff;
+    opacity: 1;
+    display: block;
+    padding: 10px;
+    font-family: Calibri;
+    color: black;
+    font-size: 16px;
+}
+
+.documents-name-personal
+{
+    width: 30%;
+    height: 30%;
+    background: #fff;
+    opacity: 1;
+    display: block;
+    padding: 5px;
+    font-family: Jaapoki;
+    color: #002157;
+    font-size: 30px;
+}
+
+.documents-name-cert
+{
+    width: 30%;
+    height: 30%;
+    background: #fff;
+    opacity: 1;
+    display: block;
+    padding: 2px;
+    font-family: Jaapoki;
+    color: #ffbf00;
+    font-size: 30px;
+}
+
+.documents-name-office
+{
+    width: 30%;
+    height: 30%;
+    background: #fff;
+    opacity: 1;
+    display: block;
+    padding: 2px;
+    font-family: Jaapoki;
+    color: #ee3b00;
+    font-size: 30px;
+}
+
+.documents-name-adobo
+{
+    width: 30%;
+    height: 30%;
+    background: #fff;
+    opacity: 1;
+    display: block;
+    padding: 2px;
+    font-family: Jaapoki;
+    color: #f00000;
+    font-size: 30px;
+}
+
+.documents-name-coding
+{
+    width: 30%;
+    height: 30%;
+    background: #fff;
+    opacity: 1;
+    display: block;
+    padding: 2px;
+    font-family: Jaapoki;
+    color: #0179cb;
+    font-size: 30px;
+}
+
+.documents-name-network
+{
+    width: 30%;
+    height: 30%;
+    background: #fff;
+    opacity: 1;
+    display: block;
+    padding: 2px;
+    font-family: Jaapoki;
+    color: #4b78d4;
+    font-size: 30px;
+}
+
+.documents-name-hardware
+{
+    width: 30%;
+    height: 30%;
+    background: #fff;
+    opacity: 1;
+    display: block;
+    padding: 2px;
+    font-family: Jaapoki;
+    color: #025736;
+    font-size: 30px;
+}
